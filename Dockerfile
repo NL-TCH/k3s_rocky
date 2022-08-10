@@ -1,4 +1,4 @@
-FROM Rockylinux:9
+FROM rockylinux:9
 
 COPY hosts /etc/hosts
 RUN sudo dnf update -y
